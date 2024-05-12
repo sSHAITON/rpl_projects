@@ -77,16 +77,17 @@
                 >
                   Fitur
                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <div
+                  class="dropdown-menu active"
+                  aria-labelledby="navbarDropdown"
+                >
                   <a class="dropdown-item" href="blog.html"
                     >Panduan Kesehatan</a
                   >
-                  <a class="dropdown-item" href="bukudigital.html"
+                  <a class="dropdown-item active" href="bukudigital.html"
                     >Buku KIA Digital</a
                   >
-                  <a class="dropdown-item active" href="diskusi.html"
-                    >Diskusi</a
-                  >
+                  <a class="dropdown-item" href="diskusi.html">Diskusi</a>
                 </div>
               </li>
 
@@ -116,11 +117,11 @@
             >
               <li class="breadcrumb-item"><a href="index.html">Beranda</a></li>
               <li class="breadcrumb-item active" aria-current="page">
-                Diskusi
+                Buku KIA Digital
               </li>
             </ol>
           </nav>
-          <h1 class="font-weight-normal">Diskusi</h1>
+          <h1 class="font-weight-normal">Buku KIA Digital</h1>
         </div>
         <!-- .container -->
       </div>
@@ -128,58 +129,47 @@
     </div>
     <!-- .page-banner -->
 
-    <div class="page-section bg-light">
+    <div class="page-section">
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-10 text-center">
-            <h1 class="display-4">Anda Belum Memiliki Janji Temu</h1>
-            <a href="janjitemu.html" class="btn btn-secondary btn-lg"
-              >Buat Sekarang</a
-            >
-          </div>
+        <h1 class="text-center wow fadeInUp">Buku KIA Digital</h1>
+
+        <!-- Embedding the iframe here -->
+        <div
+          style="
+            position: relative;
+            padding-top: max(60%, 324px);
+            width: 100%;
+            height: 0;
+          "
+        >
+          <iframe
+            style="
+              position: absolute;
+              border: none;
+              width: 100%;
+              height: 100%;
+              left: 0;
+              top: 0;
+            "
+            src="https://online.fliphtml5.com/bvzmp/jumz/"
+            seamless="seamless"
+            scrolling="no"
+            frameborder="0"
+            allowtransparency="true"
+            allowfullscreen="true"
+          ></iframe>
         </div>
+        <a
+          href="https://ayosehat.kemkes.go.id/download/grkr/a8c1c20728a2d8d55f16a7e24f52cf97.pdf"
+          class="btn btn-success"
+          download
+          >Download Buku KIA Digital</a
+        >
       </div>
       <!-- .container -->
     </div>
     <!-- .page-section -->
 
-    <div class="page-section">
-      <div class="container">
-        <h1 class="text-center wow fadeInUp">Forum Diskusi</h1>
-
-        <a href="diskusi.html" class="btn btn-secondary">Kembali ke Diskusi</a>
-
-        <div class="discussion-container">
-          <div class="discussion-bubble-master">
-            <div class="bubble-content">
-              <p class="bubble-text text-white">Pertanyaan 1</p>
-              <p class="bubble-info text-white">John Doe - October 15, 2022</p>
-            </div>
-          </div>
-          <div class="discussion-bubble">
-            <div class="bubble-content">
-              <p class="bubble-text text-white">Jawaban</p>
-              <p class="bubble-info text-white">
-                Dr. Satriatama Putra - October 16, 2022
-              </p>
-            </div>
-          </div>
-          <!-- Add more discussion bubbles here -->
-        </div>
-
-        <form class="comment-form">
-          <div class="form-group">
-            <textarea
-              class="form-control"
-              rows="3"
-              placeholder="Tambahkan komentar"
-            ></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary">Kirim</button>
-        </form>
-      </div>
-      <!-- .container -->
-    </div>
     <!-- .page-section -->
 
     <div class="banner-home">
